@@ -1,7 +1,7 @@
 {
   "conf": {
-    "deployer": "0x3030d1c51D9f008A753b6Ca6B3b941C3DA559aB9",
-    "provider": "https://kovan.infura.io/v3/9136e09ace01493b86fed528cb6a87a5",
+    "deployer": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+    "provider": "https://kovan.infura.io/v3/1c4ca8327cab46e5b9e513b7819a98f8",
     "track": "TESTING"
   },
   "risq": {
@@ -33,14 +33,14 @@
     "conf": {
       "priceTolerance": 10,
       "userWhitelist": [
-        "0x3030d1c51D9f008A753b6Ca6B3b941C3DA559aB9"
+        "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86"
       ],
-      "registryOwner": "0x3030d1c51D9f008A753b6Ca6B3b941C3DA559aB9",
+      "registryOwner": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
       "engineDelay": 2592000,
       "maxSpread": "150000000000000000",
-      "versionOwner": "0x3030d1c51D9f008A753b6Ca6B3b941C3DA559aB9",
-      "initialMGM": "0x3030d1c51D9f008A753b6Ca6B3b941C3DA559aB9",
-      "initialUpdater": "0x3030d1c51D9f008A753b6Ca6B3b941C3DA559aB9",
+      "versionOwner": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+      "initialMGM": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+      "initialUpdater": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
       "versionName": "1.1.0-kovan",
       "exchangeTakesCustody": {
         "oasis": true,
@@ -110,7 +110,7 @@
   "tokens": {
     "addr": {
       "WETH": "0x4a1218C3BE387F11E9FEb0d6Eb61659D085b0589",
-      "RISQ": "0x1f27B5638512d5a3b35E136334455cA1C9065065",
+      "RISQ": "0xcd73be56a83e365770c41935447a3c8a35096e65",
       "BAT": "0xc0a6D9ae0b92249A680F0A47D2b5300dc6CBc5e0",
       "DAI": "0xcBe0e15B492933721B82a6c76a5D6C9A56A3E5B3",
       "EUR": "0x8001b04F81D17c9Bf68F714D66bcB1a92468C07b",

@@ -1,0 +1,176 @@
+{
+  "conf": {
+    "deployer": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+    "provider": "https://kovan.infura.io/v3/1c4ca8327cab46e5b9e513b7819a98f8",
+    "track": "TESTING"
+  },
+  "risq": {
+    "addr": {
+      "EthfinexAdapter": "0x3AdC52A933a32ba73Fd7B5A25C5B4831886fE202",
+      "KyberAdapter": "0x1C155444A3d03c246b4b8416eff2076764ebB054",
+      "OasisDexAdapter": "0x18cD7aF047B6ea97214e4f731601BB06d964E0d0",
+      "OasisDexAccessor": "0x089B8c37255a2d2318538A20EE71B00E980e1C2D",
+      "UniswapAdapter": "0xf58d88c3347137E3b8D9391B2b6434b7a81FE8Ef",
+      "ZeroExV2Adapter": "0x027fDE66D4C5Fd840f8f34bB0C2FeAAB09e1ea82",
+      "ZeroExV3Adapter": "0xF1078C28C0e169acdE287259E8E8E27faD8FA5dc",
+      "EngineAdapter": "0x748901F91405F81935AA1fbAE0f9A3b0F50c5823",
+      "PriceTolerance": "0x315AfB512F07180092382fcA1bE28c9E81395A06",
+      "UserWhitelist": "0x6a1E1A8db4F8a680BAe403655Cff978e9B97aC0D",
+      "ManagementFee": "0x8eE78EE869d8CB533372005C55259f296e709d9D",
+      "AccountingFactory": "0x64adA5D0794F7C996E1bB591a3cb451072aeCDF7",
+      "FeeManagerFactory": "0x5c5EAa10226DBAEafA162c1f8780C01AA98FA972",
+      "ParticipationFactory": "0x545935300764e58D3769ec922766aaB167bC2694",
+      "PolicyManagerFactory": "0x45812fEc097Ea46d4FCcaB941cCCC159587D4390",
+      "SharesFactory": "0x42089756712cA5AB8224Db35cECaf90FD71505Bb",
+      "TradingFactory": "0xeBbf48BCcFb34508A18Cbb9c2A6EC81C6a4fFE23",
+      "VaultFactory": "0x6ED17E30c2a6e14c3BeC76a62d2E2040D1548436",
+      "PerformanceFee": "0x00da6FCeFaaCEfA582260D58B4fCd6c4C4961BD0",
+      "Registry": "0x207397D496eb9f902124A225d57AfD4755A8911c",
+      "Engine": "0x0a5e927B288eC6F36f7C5334c3c4b8bFB566a489",
+      "Version": "0xE6268c06e95485d36b3fb8A359648a9Ec9CE4CC3",
+      "TestingPriceFeed": "0x3f2d7BeE4e7D8276483057F07f441675f27B68fC"
+    },
+    "conf": {
+      "priceTolerance": 10,
+      "userWhitelist": [
+        "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86"
+      ],
+      "registryOwner": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+      "engineDelay": 2592000,
+      "maxSpread": "150000000000000000",
+      "versionOwner": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+      "initialMGM": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+      "initialUpdater": "0x7ef3dBb089964c2a485B0DAaC53E14428172CC86",
+      "versionName": "1.1.0-kovan",
+      "exchangeTakesCustody": {
+        "oasis": true,
+        "kyber": false,
+        "zeroex": false,
+        "ethfinex": true,
+        "engine": false
+      }
+    }
+  },
+  "kyber": {
+    "addr": {
+      "KGT": "0x42F6ca4473279A8759d1FeC853136FFeA18A867B",
+      "ConversionRates": "0xcC0f278b4506021b78F1794975Dce6C4fF3Ad8C2",
+      "KyberReserve": "0x35EB5b02621c4aDFE045c67558a919F29a9762f6",
+      "KyberNetwork": "0x028A60d35eFDC70cf5CA5404134cd98c6c9b9842",
+      "KyberNetworkProxy": "0x6687420D07aFDDBA52F05ca1216463ce8249e736",
+      "KyberWhiteList": "0xB535b7b016924Cab5c1e949e38B25efC8544C2Fb",
+      "ExpectedRate": "0x9ae36c75052AA12152A01C241d4977B740229BCa",
+      "FeeBurner": "0xa298AC4AE4a9C86e9be9e57c8aBD402ff210d2b2"
+    },
+    "conf": {
+      "initialReserveAmount": "1000000000000000000"
+    }
+  },
+  "oasis": {
+    "addr": {
+      "OasisDexExchange": "0x93c999c889917E73f7e551F67f660dbA2f06dDc7"
+    },
+    "conf": {
+      "closeTime": "9999999999999",
+      "quoteToken": "WETH"
+    }
+  },
+  "ethfinex": {
+    "addr": {
+      "ZeroExV2Exchange": "0x76F1AEB0cffF8C37A9b8F8b92D08a76048E3CcAf",
+      "WrapperRegistryEFX": "0x3a543d4A69ffa67Ef893fd57013E6C32167aC3E7",
+      "WrapperLockEth": "0x6d0eC4Daf2d77c2057EAC36aa9d3c18900cd604a",
+      "W-RISQ": "0x82B7308CDf94FA5E001F897B69bD92a9c5adEb14",
+      "W-BAT": "0x58B9a85551D695973b6f71eC2674C979BD1e7491",
+      "W-DAI": "0xc9d81876a7540B54862bf8febEd8B8Ea31daBeaa",
+      "W-EUR": "0x18c40825Df16F0aD860fe20F1A8aE69BB33f74f1",
+      "W-KNC": "0x4457ce5a2c3E68A4C29F070be15bB9cd56f41695",
+      "W-MKR": "0xdF37A79FeDa431942430cb9F59b1e8F0D4E90C60",
+      "W-REP": "0xe091C4D1922E45C5C6dA2306CfBA2580978D1CC5",
+      "W-ZRX": "0xa33456fEfa460178a3a2B898F4bA2aD42B197542"
+    },
+    "conf": {}
+  },
+  "uniswap": {
+    "addr": {
+      "UniswapExchange": "0xb10C28C23FE8f4D413Fa87fc9079338Cc343723D",
+      "UniswapFactory": "0x9774c331023f9a0bC14C7E4D2e87C8abbe5c6B3C"
+    },
+    "conf": {}
+  },
+  "zeroExV2": {
+    "addr": {
+      "ZeroExV2Exchange": "0x76F1AEB0cffF8C37A9b8F8b92D08a76048E3CcAf",
+      "ZeroExV2ERC20Proxy": "0xFdd2Da475FC8541bA6C1061361E6b88BdC73B35C"
+    },
+    "conf": {}
+  },
+  "zeroExV3": {
+    "addr": {
+      "ZeroExV3Exchange": "0xDC15259bbFB8663F4b9C274b71b3F4129fd20EC8",
+      "ZeroExV3ERC20Proxy": "0x1af9Fea47de3C5Bd60dA8d0dC6cA1a0DcA4bf04A",
+      "ZeroExV3Staking": "0xc19c4a5CdD0b4738fA97129C29cD6B2d60732797",
+      "ZeroExV3StakingProxy": "0x6E1578e834A65C2d9cE52680F48a44b68E228Ed6",
+      "ZeroExV3ZrxVault": "0x40890ea579533CceE584182059fe5988d20dA6b0"
+    },
+    "conf": {
+      "protocolFeeMultiplier": 150000
+    }
+  },
+  "tokens": {
+    "addr": {
+      "WETH": "0xeD1Dbfa5E5c3Adebb9A222ce2F359A65290295DE",
+      "RISQ": "0x8e4ccce42F8118815e1c81804D7A225863c74713",
+      "BAT": "0x1a8fc232CF71fA467412AC9620d7F8Ff6a672857",
+      "DAI": "0x6c15174f502B63A62E57f7E948d80cd012698de0",
+      "EUR": "0xCC27D74F388892F5e8db98b158D63A04ceC6984B",
+      "KNC": "0x727be5198769546b498328f152719981f834e0DF",
+      "MKR": "0xdea7A38aA911Ebd352CdF9a8be30754899568aAA",
+      "REP": "0x0aA1042028fDc21F6c5d508d7CC965ED3F09c160",
+      "ZRX": "0x2CC8538E825E61000Dc3bB61f65Fa2E59A5A2E10"
+    },
+    "conf": {
+      "WETH": {
+        "name": "Eth Token",
+        "decimals": 18,
+        "initialDepositAmount": "1000000000000000000"
+      },
+      "RISQ": {
+        "name": "Risq Protocol",
+        "decimals": 18
+      },
+      "BAT": {
+        "name": "Basic Attention Token",
+        "decimals": 18
+      },
+      "DAI": {
+        "name": "Dai",
+        "decimals": 18
+      },
+      "EUR": {
+        "name": "Euro Token",
+        "decimals": 18
+      },
+      "KNC": {
+        "name": "Kyber Network",
+        "decimals": 18
+      },
+      "MKR": {
+        "name": "MakerDao",
+        "decimals": 18
+      },
+      "REP": {
+        "name": "Rep Token",
+        "decimals": 18
+      },
+      "ZRX": {
+        "name": "ZeroX Protocol Token",
+        "decimals": 18
+      }
+    }
+  },
+  "postDeployment": {
+    "deployerWethAmount": "100000000000000000000",
+    "kyberReserveAmount": "100000000000000000000"
+  }
+}
