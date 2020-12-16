@@ -1,0 +1,15 @@
+node_modules/
+*.log
+
+# ignore built code
+out/
+
+# ignore node version manager files
+.nvmrc
+.node-version
+
+# Ganache Keystore
+keys.json
+
+# Kovan Keystore
+kovan_keys.json
