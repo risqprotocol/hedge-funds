@@ -1,0 +1,50 @@
+{
+  "name": "@risqprotocol/testutils",
+  "version": "2.0.0",
+  "description": "Defi Hedge Funds Regulated by Code",
+  "author": "Risq Protocol <team@risq.capital>",
+  "license": "GPL-3.0",
+  "homepage": "https://risq.capital",
+  "main": "dist/testutils.cjs.js",
+  "module": "dist/testutils.esm.js",
+  "browser": {
+    "./dist/testutils.cjs.js": "./dist/testutils.browser.cjs.js",
+    "./dist/testutils.esm.js": "./dist/testutils.browser.esm.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risqprotocol/protocol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/risqprotocol/protocol/issues"
+  },
+  "keywords": [
+    "DeFi",
+    "Ethereum",
+    "Risq",
+    "Risq Finance",
+    "Smart Contracts",
+    "Solidity"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@risqprotocol/protocol": "^2.0.0",
+    "hardhat": "^2.0.6"
+  },
+  "devDependencies": {
+    "@crestproject/crestproject": "^0.1.21",
+    "ethers": "^5.0.19",
+    "ethers-eip712": "^0.2.0"
+  },
+  "peerDependencies": {
+    "@crestproject/crestproject": "^0.1.21",
+    "ethers": "^5.0.19",
+    "ethers-eip712": "^0.2.0"
+  }
+}

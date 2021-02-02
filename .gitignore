@@ -1,15 +1,25 @@
-node_modules/
+# ignore log output
 *.log
 
-# ignore built code
-out/
+# ignore all dotfiles except the whitelisted ones
+.*
+!.env.example
+!.changeset
+!.github
+!.gitignore
+!.gitattributes
+!.prettierignore
+!.prettierrc
+!.babelrc
+!.solhint.json
+!.solhintignore
+!.chainId
 
-# ignore node version manager files
-.nvmrc
-.node-version
-
-# Ganache Keystore
-keys.json
-
-# Kovan Keystore
-kovan_keys.json
+# ignore build output and dependencies
+codegen/
+dist/
+cache/
+artifacts/
+deployments/
+coverage/
+node_modules/
