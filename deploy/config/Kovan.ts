@@ -274,7 +274,7 @@ const fn: DeployFunction = async function (hre) {
       synths,
       addressResolver: synthetixIntegratee,
       delegateApprovals: synthetixIntegratee,
-      originator: '0x1ad1fc9964c551f456238Dd88D6a38344B5319D7',
+      originator: '0x7ef3dBb089964c2a485B0DAaC53E14428172CC86',
       trackingCode: utils.formatBytes32String('RISQ'),
     },
     compound: {

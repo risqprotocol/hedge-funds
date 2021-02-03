@@ -312,7 +312,28 @@ export const deployMocks = describeDeployment<MockDeploymentConfig, MockDeployme
       MockChainlinkPriceSource.deploy(config.deployer, 18),
     ]);
 
-    return { aud, bat, bnb, bnt, btc, comp, dai, knc, link, mana, risq, ren, rep, uni, usdc, usdt, xau, zrx, mrt, susd };
+    return {
+      aud,
+      bat,
+      bnb,
+      bnt,
+      btc,
+      comp,
+      dai,
+      knc,
+      link,
+      mana,
+      risq,
+      ren,
+      rep,
+      uni,
+      usdc,
+      usdt,
+      xau,
+      zrx,
+      mrt,
+      susd,
+    };
   },
   async chainlinkEthUsdAggregator(config) {
     return MockChainlinkPriceSource.deploy(config.deployer, 8);
@@ -640,7 +661,7 @@ export async function configureMockRelease({
         delegateApprovals: mocks.synthetix.mockSynthetixIntegratee,
         snx: mocks.synthetix.mockSynthetixIntegratee,
         susd: mocks.synthetix.synths.susd,
-        originator: '0x1ad1fc9964c551f456238Dd88D6a38344B5319D7',
+        originator: '0x7ef3dBb089964c2a485B0DAaC53E14428172CC86',
         trackingCode: utils.formatBytes32String('RISQ'),
       },
       makerDao: {

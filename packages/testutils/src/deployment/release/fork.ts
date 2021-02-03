@@ -117,8 +117,8 @@ export async function configureForkRelease({
         delegateApprovals: mainnet.synthetix.delegateApprovals,
         snx: mainnet.synthetix.snx,
         susd: tokens.susd.address,
-        originator: '0x1ad1fc9964c551f456238Dd88D6a38344B5319D7',
-        trackingCode: '0x454e5a594d450000000000000000000000000000000000000000000000000000',
+        originator: '0x7ef3dBb089964c2a485B0DAaC53E14428172CC86',
+        trackingCode: '0x524953510000000000000000000000000000000000000000000000000000',
       },
       makerDao: {
         dai: mainnet.maker.dai,
